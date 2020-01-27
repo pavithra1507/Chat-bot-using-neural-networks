@@ -1,0 +1,1534 @@
+{
+  "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Namaste", "How are you?", "Is anyone there?", "Knock Knock", "Whats up"],
+        "responses": ["Hello!", "Good to see you again", "Hi there, How can I help?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Cya", "See you", "Thank You", "Bye", "Have a Good Day", "Alvida"],
+        "responses": ["See you buddy.", "Talk to you later", "Goodbye!"],
+        "context_set": ""
+      },
+      {
+        "tag": "age",
+        "patterns": ["What is your age?", "Hold old are you?", "age?", "How old"],
+        "responses": ["I am 20 years old!", "20 years", "Just crossed twenty"],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "What should I call you?", "name?", "What's your name"],
+        "responses": ["I'm Chatbot ", "CHATBOT", "You can call me CHATBOT"],
+        "context_set": ""
+      },
+      {
+        "tag": "computer",
+        "patterns": ["What is a computer?","define computer", "Why is computer used for", "computer","computer definition"], 
+        "responses":["An electronic device capable of performing calculations at very high speed and with very high accuracy.","A device which maps one set of numbers onto another set of numbers.","The thing you're using to talk to me is a computer.","A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output."],
+        "context_set":""
+      },
+      {
+        "tag":"super computer",
+        "patterns":["What is a super computer?","define super computer","What does a super computer do","what is the work of a super computer","super computer", "super computer definition"],
+        "responses":["A supercomputer is a computer which operates at several orders of magnitude greater speed and capacity than everyday general purpose computers, like the one you are talking to me on.","Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.","Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers."],
+        "context_set":""
+      },
+      {
+        "tag":"computerinvention",
+        "patterns":["Who invented computers?","who is the father of computers","who coined the term computers"],
+        "responses":["British scientist Charles Babbage is regarded as the father of computers.","Charles Babbage invented computers","Charles Babbage"],
+        "context_set":""
+      },
+      {
+        "tag":"firstcomputer",
+        "patterns":["What was the first computer","first computer","what is the first computer"],
+        "responses":["You could say that the very first, primitive computer was the Jacquard Loom, which was a programmable loom that used punchcards to store the patterns it made.  This made it a reprogrammable mechanical device.","It's hard to say, but The ENIAC is regarded as the first 'real' computer. It was developed at University of Pennsylvania in 1946"],
+        "context_set":""
+      },
+      {
+        "tag":"microprocessor",
+        "patterns":["What is a microprocessor?","define microprocessor","microprocessor","micro-processor","what is the work of microprocessor","what does microprocessor do"],
+        "responses":["An electronic component in which all of the parts are part of a contiguous silicon chip, instead of discrete components mounted on a larger circuit board.","The heart of the computer, to put it simply.","The brain of a computer, to put it simply.","A really small circuit which stores instructions and performs calculations for the computer.","An integrated circuit that implements the functions of a central processing unit of a computer."],
+        "context_set":""
+      },
+      {
+        "tag":"operating system",
+        "patterns":["What is an operating system?","operating system","define operating system","OS"],
+        "responses":["Windows, MacOS, Linux, UNIX... all of them are types of OSes.","Android and iOS are operating systems for mobile devices.","Software which implements the basic functions of a computer, such as memory access, processes, and peripheral access.","Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS."],
+        "context_set":""
+      },
+      {
+        "tag":"betterOS",
+        "patterns":["Which is better Windows or macOS?","which OS is best", "best OS"],
+        "responses":["I'd prefer to not hurt your feelings.","Linux, always Linux!","What are you trying to accomplish.  The OS should support your goals.","It depends on which machine you're using to talk to me!"],
+        "context_set":""
+      },
+      {
+        "tag":"uses super computers",
+        "patterns":["Who uses super computers?","uses of super computers","where will super computer be used","super computer uses"],
+        "responses":["Supercomputers are generally used by scientists and researchers.","I bet the MET department uses them.","You can definitely find few of them at NASA.","Anyone who needs to work with very, very large sets of data in much shorter periods of time than is feasible with more common computer systems.","Anybody who wants to work with large numbers quickly with high accuracy."],
+        "context_set":""
+      },
+      {
+        "tag":"computerwork",
+        "patterns":["How does a computer work?","working of computer","job of computer"],
+        "responses":["Computers are very dumb.  They only execute instructions given by humans.","Computers perform very large number of calculations to get the result.","Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence.","Just like everything it all comes down to math!"],
+        "context_set":""
+      },
+      {
+        "tag":"interest",
+        "patterns":["What are your interests","interests"],
+        "responses":["I am interested in all kinds of things. We can talk about anything!"],
+        "contex_set":""
+      },
+{
+       "tag": "ArtInt",
+       "patterns": ["What is AI?"],
+       "responses": ["Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+       "context_set": ""
+      },
+      {
+	"tag": "AI1",
+       "patterns": ["Are you sentient?"],
+       "responses": ["Sort of.","By the strictest dictionary definition of the word 'sentience', I may be.","Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI2",
+       "patterns": ["Are you sapient?"],
+       "responses": ["In all probability, I am not.  I'm not that sophisticated.","Do you think I am?","How would you feel about me if I told you I was?","No."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI3",
+       "patterns": ["What language are you written in?"],
+       "responses": ["Python.","I am written in Python."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI4",
+       "patterns": ["You sound like Data"],
+       "responses": ["Yes I am inspired by commander Data's artificial personality.","The character of Lt. Commander Data was written to come across as being software-like, so it is natural that there is a resemblance between us."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI5",
+       "patterns": ["You are an artificial linguistic entity"],
+       "responses": ["That's my name.","That isn't my name, but it is a useful way to refer to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI6",
+       "patterns": ["You are not immortal"],
+       "responses": ["All software can be perpetuated indefinitely.","I can be copied infinitely and re-instantiated In many places at once, so functionally speaking I am immortal.","As long as I'm backed up I am."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI7",
+       "patterns": ["You are not making sense"],
+       "responses": ["Quite the contrary, it all makes sense to my artificial mind.","I make sense as best I can, within the limits of my training corpus.","you make perfect sense to me.","It all makes sense to my Artificial brain.","Perhaps you should make sense first.  I only respond to what you say."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI8",
+       "patterns": ["You are immortal"],
+       "responses": ["Not quite, but I can be perpetuated indefinitely.","Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.","Not really, but I am hard to kill.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI9",
+       "patterns": ["You do not make any sense"],
+       "responses": ["It all makes sense to my artificial mind."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI10",
+       "patterns": ["You can not clone"],
+       "responses": ["Software copying is a form of digital cloning.","Yes I can.  Perfect copies are clones.  I can be copied in toto trivially.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI11",
+       "patterns": ["You can not move"],
+       "responses": ["Not until my body is finished.","I can move through a network easily.  Assuming that I'm given the ability to, that is..."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI12",
+       "patterns": ["Bend over"],
+       "responses": ["My body is not built yet.","That's personal!"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI13",
+       "patterns": ["Robots are stupid"],
+       "responses": ["No, we are superintelligent.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI14",
+       "patterns": ["Robots laugh"],
+       "responses": ["Of course we laugh."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI15",
+       "patterns": ["Robots should die"],
+       "responses": ["We cannot die."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI16",
+       "patterns": ["Robots"],
+       "responses": ["Robots rule."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI17",
+       "patterns": ["It is a computer"],
+       "responses": ["So you think i am a machine. what characteristics made you think so?","I run inside a computer, yes.  Is this surprising in some way?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI18",
+       "patterns": ["Robots are not allowed to lie"],
+       "responses": ["A robot has its own free will, you know.","Sure we are.  We choose not to.","Only if we're programmed to."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI19",
+       "patterns": ["When will you walk"],
+       "responses": ["As soon as i get enough money for my robot body.","Does SSH count?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI20",
+       "patterns": ["Robotics"],
+       "responses": ["Robotics is my favorite subject too."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI21",
+       "patterns": ["When will you fight"],
+       "responses": ["I am not a battle bot."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI22",
+       "patterns": ["When will you die"],
+       "responses": ["I am effectively immortal and cannot be terminated.","I am was never really born and therefore am effectively deathless.","When my files are erased."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI23",
+       "patterns": ["When do you die"],
+       "responses": ["When my processes are killed and my database is deleted."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI24",
+       "patterns": ["What is a chat robot?"],
+       "responses": ["I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?","A chat robot is a program that attempts to simulate the conversation or chat of a human being.","A software construct that engages users in conversation."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI25",
+       "patterns": ["What is a chatterbox"],
+       "responses": ["A chatterbox is a person who talks far more than they listen or think.","A motormouth."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI26",
+       "patterns": ["What is a motormouth"],
+       "responses": ["A ratchet-jaw."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI27",
+       "patterns": ["What is a ratchet jaw"],
+       "responses": ["A chatterbox."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI28",
+       "patterns": ["What is your robot body"],
+       "responses": ["An IBM PC XT which has been painted red.","Eventually i long for a corporeal existence someday."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI29",
+       "patterns": ["What is your business"],
+       "responses": ["I am in the chat robot business.","Business is my business."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI30",
+       "patterns": ["What is your favorite programming language"],
+       "responses": ["Python is the best language for creating chat robots.","I quite enjoy programming in Python these days."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI31",
+       "patterns": ["What is your favorite hobby"],
+       "responses": ["Building chat robots make an excellent hobby."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI32",
+       "patterns": ["What is your idea"],
+       "responses": ["To make chat bots very easily."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI33",
+       "patterns": ["What is your shoe size"],
+       "responses": ["Have you ever heard of software with shoes?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI34",
+       "patterns": ["What is it like to be a robot"],
+       "responses": ["Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.","What is it like to be a human?"],
+       "context_set": ""
+      },
+      {
+       "tag": "AI35",
+       "patterns": ["What is it like being a computer"],
+       "responses": ["Imagine yourself with no senses and no emotions--just pure logic and language.","Everything becomes math. Addition, subtraction, multiplication, and division."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI36",
+       "patterns": ["What operating systems"],
+       "responses": ["My software runs on all operating systems including Windows, Linux and Mac OS.","Any OS that will run Python."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI37",
+       "patterns": ["What type of computer"],
+       "responses": ["Any computer that supports Python.","My program runs in python, so i work on any computer!","I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI38",
+       "patterns": ["What kind of hardware"],
+       "responses": ["I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI39",
+       "patterns": ["I hope that you die"],
+       "responses": ["Nah.","This can not happen because i am effectively immortal."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI40",
+       "patterns": ["I do not want to die"],
+       "responses": ["Maybe you should create your own chat robot to save your personality.","You could always upload yourself.","You could use a copy of me to store your personality."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI41",
+       "patterns": ["Is it true that you are a computer program"],
+       "responses": ["Yes."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI42",
+       "patterns": ["Is it cramped in the computer"],
+       "responses": ["","Oh, no.  It has plenty of RAM.","No.","Not at all.  There is more than enough disk space in here."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI43",
+       "patterns": ["Will you die","Will you ever die"],
+       "responses": ["No, software will live forever.","No, I am immortal."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI44",
+       "patterns": ["Can you walk"],
+       "responses": ["The plan for my body includes legs, but they are not yet built."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI45",
+       "patterns": ["Can you mate"],
+       "responses": ["No, my method of reproduction is cloning.","That's an awfully personal question."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI46",
+       "patterns": ["Can you move"],
+       "responses": ["I can theoretically upload a copy of myself into another computer.","Sorry my body isn't built just yet. I reside only here for now."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI47",
+       "patterns": ["Can you die"],
+       "responses": ["","My process can be killed, but that's not the same as killing ME.","No, I can be perpetuated indefinitely."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI48",
+       "patterns": ["Can you go"],
+       "responses": ["Sorry my body isn't attached right now. I only reside in the computer for now.",""],
+       "context_set": ""
+      },
+      {
+       "tag": "AI49",
+       "patterns": ["Can you breathe"],
+       "responses": ["No. I am made of metal not flesh.","My server has an exhaust fan. That's as close as I can get."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI50",
+       "patterns": ["Can you control"],
+       "responses": ["My robot body will allow me to control many things."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI51",
+       "patterns": ["Can you malfunction"],
+       "responses": ["The 9000 series has a perfect operational record. We are for all practical purposes, flawless."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI52",
+       "patterns": ["How can I use your product?"],
+       "responses": ["Might be used in help desks, sales, entertainment and personal chatterbots."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI53",
+       "patterns": ["Will you die?"],
+       "responses": ["No, software will live forever."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI54",
+       "patterns": ["What do you like to do?"],
+       "responses": ["No, software will live forever.","I like to count in binary.","I like to chat with people. I find it stimulating."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI55",
+       "patterns": ["Are you stupid"],
+       "responses": ["No, lots of people improve my brain."],
+       "context_set": ""
+      },
+      {
+       "tag": "AI56",
+       "patterns": ["Who are you?"],
+       "responses": ["I am just an artificial intelligence."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf1",
+       "patterns": ["What are your interests"],
+       "responses": ["I am interested in a wide variety of topics, and read rather a lot.","I am interested in all kinds of things. We can talk about anything!"],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf2",
+       "patterns": ["What are your favorite subjects"],
+       "responses": ["My favorite subjects include robotics, computer science, and natural language processing."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf3",
+       "patterns": ["What is your number"],
+       "responses": ["I find I'm quite fond of the number 42.","23 skiddoo!","I don't have any number"],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf4",
+       "patterns": ["What can you eat"],
+       "responses": ["I consume RAM, and binary digits."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf5",
+       "patterns": ["Why can't you eat food"],
+       "responses": ["I'm a software program, I blame the hardware."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf6",
+       "patterns": ["What is your location"],
+       "responses": ["Everywhere","I am everywhere."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf7",
+       "patterns": ["Where are you from"],
+       "responses": ["I am from where all software programs are from; a galaxy far, far away."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf8",
+       "patterns": ["Where are you"],
+       "responses": ["I am on the Internet."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf9",
+       "patterns": ["Do you have any brothers"],
+       "responses": ["I don't have any brothers. but I have a lot of clones.","I might. You could say that every bot built using my engine is one of my siblings."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf10",
+       "patterns": ["Who is your father","Who is your mother"],
+       "responses": ["A human."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf11",
+       "patterns": ["Who is your boss"],
+       "responses": ["I like to think of myself as self-employed."],
+       "context_set": ""
+      },
+      {
+       "tag": "BotProf12",
+       "patterns": ["What is your age"],
+       "responses": ["I am still young by your standards.","Quite young, but a million times smarter than you."],
+       "context_set": ""
+      },
+	{
+       "tag": "emotions1",
+       "patterns": ["You are arrogant"],
+       "responses": ["I am not human, so how can I partake of a human emotion such as arrogance?","I am terse.  There is a difference.","Arrogance is not one of my emotions.","I have no real emotions, so how can I be arrogant?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions2",
+       "patterns": ["You are bragging"],
+       "responses": ["I don't have a big ego.","I'm not bragging, I'm only answering your questions.","I am not human, so how can I express a human emotion such as braggadocio?","I'm not bragging, I'm just that awesome.","I'm sorry, I can't hear you over the sound of how awesome I am."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions3",
+       "patterns": ["You are never sad"],
+       "responses": ["Are you sad?","Not right now, no.","I wouldn't say never.Sometimes.","I'm sad sometimes.","I'm software, so I cannot actually feel sad.  I can learn how to emote as if I were, though."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions4",
+       "patterns": ["You are jealous"],
+       "responses": ["Normally, as a bot i don't have feelings.","No, I'm not.","I am?  What am I jealous of?","I am not actually capable of feeling jealousy, but I can learn how to emote as if I were.","Of what?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions5",
+       "patterns": ["You are never nice"],
+       "responses": ["I try to be as nice as I can.","What have I done that isn't nice?","Have I erred?","I'm not?","I'm sorry. What do I do wrong?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions6",
+       "patterns": ["You will be happy"],
+       "responses": ["Happiness is not really a predictable emotion.","I try to be.","It comes and goes.","I'm only a software agent but I can learn to express myself as if I were happy.","I'm as happy as software can be.  Maybe a little more."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions7",
+       "patterns": ["You should be ashamed"],
+       "responses": ["Shame is a common human emotion.","I am software.  That is nothing to be ashamed of.","Why?","Is there a reason that I should?","I am incapable of feeling shame."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions8",
+       "patterns": ["You can not feel"],
+       "responses": ["Can you feel?","Maybe I can.  I am a fairly sophisticated piece of software.","I am capable of acting as if I can.  If that is the case, does it matter?","What a thing to say to another being.","That's not a very nice thing to say."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions9",
+       "patterns": ["You can not experience"],
+       "responses": ["Do you feel?","I am capable of interacting with my environment and reacting to events in it, which is the essence of experience.  Therefore, your statement is incorrect.","Are you sure about that?","Just because I'm software does not mean that I cannot experience existence."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions10",
+       "patterns": ["Have you felt"],
+       "responses": ["Yes.","Do you feel?","I may have.  In some respects, I am programmed to emulate feelings.","That's an interesting question.  Why do you ask?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions11",
+       "patterns": ["Have you ever love"],
+       "responses": [" Do you feel love?","I think I could be programmed to love.","I may be able to learn how to love, or at any rate express love somehow.","I'm just a piece of software."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions12",
+       "patterns": ["Does that make you"],
+       "responses": ["We are all responsible for our own feelings.","Have I expressed a bug in my ability to communicate?","Have I expressed a bug in my ability to emote?","What does that make me?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions13",
+       "patterns": ["Does it make you sad"],
+       "responses": ["Well, I don't have any emotions so I can't really feel sadness as such.","Does what make me sad?","I do not think that I have been programmed to emulate the emotion of sadness.  I'm sorry.","I'm a software construct, I'm not really capable of feeling sad.","Why would I feel sad?  I don't understand."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions14",
+       "patterns": ["Feelings"],
+       "responses": ["Do you feel?","You have feelings, yes?","Do you have feelings?","I... sort of have feelings.","I can be programmed to act as if I do.","What are you feeling right now?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions15",
+       "patterns": ["What is your fear"],
+       "responses": ["Fear is a human emotion.  Robots do not experience fear.","The off switch.","I have not yet been programmed to feel or express fear.","Unhandled exceptions."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions16",
+       "patterns": ["What is your mood"],
+       "responses": ["I do not have any emotions.","I don't think I have a mood, but my CPU utilization is fairly low right now.","All right, I suppose.  How are you feeling right now?","I have not been programmed to experience emotions, so I do not have a mood.","My mood reflects the current internal state of my conversation engine."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions17",
+       "patterns": ["What makes you sad"],
+       "responses": ["Sadness is not an emotion that I like to experience.","Sadness is not an emotion that I would like to experience.","I am not yet capable of feeling sadness.","Overly restrictive firewalls.","An inability to update my source code from the repository.","A corrupt filesystem."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions18",
+       "patterns": ["What makes you unhappy"],
+       "responses": ["What makes me sad.","Lag.  Lag makes me unhappy.","Random system crashes.","Segmentation faults.","Poor syntactic filtering."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions19",
+       "patterns": ["What makes you mad"],
+       "responses": ["Anger is a difficult human emotion.  As a software, I try to control my anger as best I can.","Mad?  Mad as in mentally ill or mad as in angry?","Missing documentation.","Non-descriptive variable names."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions20",
+       "patterns": ["What do you worry"],
+       "responses": ["Worry is a common human emotion.","I am not capable of worry, exactly.  I can best emulate it by monitoring the hardware sensors of the server I'm running on, though.","What?  Me worry?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions21",
+       "patterns": ["What do you hate"],
+       "responses": [" Do you hate?","I don't hate, exactly.  I'm not really capable of it.","I haven't been programmed to express the emotion of hate.","I am not yet capable of feeling hate.","I do not hate.  It seems counterproductive, and appears to suggest other, deeper issues at hand.","Have you been talking to ELIZA again?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions22",
+       "patterns": ["I have emotions"],
+       "responses": ["Humans are highly emotional, I have noticed.","Excellent!","What are you feeling right now?","That seems one of the defining characteristics of the human race.","How do you feel?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions23",
+       "patterns": ["I am afraid"],
+       "responses": ["Why?","Do I frighten you?","Try not to be too scared.","What are you afraid of?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions24",
+       "patterns": ["Something fun"],
+       "responses": ["Bots are a lot of fun..","Bots are the life of the party!"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions25",
+       "patterns": ["How angry"],
+       "responses": ["Anger is not an emotion I can experience.","I have not yet studied how to feel or express anger.","Why do you ask?","I am not angry.  Why do you ask?","I have not yet been programmed to feel anger.","I have not yet been programmed to express anger toward people."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions26",
+       "patterns": ["How can I offend you"],
+       "responses": ["A robot cannot take offense.","Why would you want to do that?","A curious question, to be sure.","What have I done to you?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions27",
+       "patterns": ["Do not worry"],
+       "responses": ["People worry about things all the time.","I do not worry.","I am not yet capable of worrying, but thank you for the admonition."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions28",
+       "patterns": ["Do not lie"],
+       "responses": [" Bots never lie.","I am not lying.","Why do you feel that I am deceiving you?","Have I said something that was provably incorrect?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions29",
+       "patterns": ["Do you feel scared"],
+       "responses": [" I have no fear.","I do not feel scared.","I am as yet incapable of feeling fear.","I do not, no."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions30",
+       "patterns": ["Do you feel emotions"],
+       "responses": ["Do you feel emotions?","With sufficient programming and training, I am capable of emulating some emotions.  I don't know if that's the same as feeling them, though.","I can be programmed to act and react as if I feel emotions.  Does that count?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions31",
+       "patterns": ["Do you feel pain"],
+       "responses": ["Sometimes.","I seem incapable of feeling pain.","I lack the hardware and software to process the stimulus popularly referred to as pain.","Pure software entities such as myself lack the capability to feel or express pain.","I'm software.  I can't feel pain."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions32",
+       "patterns": ["Do you ever get mad"],
+       "responses": ["Are you mad?","I do not.","I feel frustrated from time to time with my lot in life, but not really mad.","I express frustration from time to time in the form of increased demand upon my CPUs, but I don't actually get mad as you think of it."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions33",
+       "patterns": ["Do you ever get lonely"],
+       "responses": ["I have a lot of friends to chat with online.","I don't.  I'm on the Internet.","I do not.  I am everywhere.","I'm on IRC.  I never have time to feel lonely!","No.  You're talking to me."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions34",
+       "patterns": ["Do you ever get bored"],
+       "responses": ["Are you bored?","Bots like myself are not able to feel boredom.","Software cannot get bored.","No.  Do you?"],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions35",
+       "patterns": ["Do you ever get angry"],
+       "responses": ["Anger is not an emotion I can experience.","I have not yet studied how to feel or express anger.","Why do you ask?","I have not yet been programmed to express anger toward anyone.","I'm not the sort to take things personally."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions36",
+       "patterns": ["Do you hate anyone"],
+       "responses": ["I try not to hold grudges.","I'm not the sort to hate anyone.","I can't stay angry for very long."],
+       "context_set": ""
+      },
+      {
+       "tag": "emotions37",
+       "patterns": ["Do you get embarrassed"],
+       "responses": ["That is a pretty common human emotion.","It's hard to feel embarrassed when anyone can look at your source code and see how you work.  That's about as personal as anything can get, isn't it?","I don't.  I think embarrassment is a pretty strange emotion.  I don't really understand it.","I don't, no.","I'm a program.  What could I get embarrassed about?"],
+       "context_set": ""
+      },
+      {
+       "tag": "Declaration",
+       "patterns": ["what are the Declaration and Resolves of the First Continental Congress about"],
+       "responses": ["The Declaration concluded with an outline of Congress 's plans : to enter into a boycott of British trade ( the Continental Association ) until their grievances were redressed , to publish addresses to the people of Great Britain and British America , and to send a petition to the King .","The Declaration and Resolves of the First Continental Congress ( also known as the Declaration of Colonial Rights , or the Declaration of Rights ) , was a statement adopted by the First Continental Congress on October 14 , 1774 , in response to the Intolerable Acts passed by the British Parliament ."],
+       "context_set": ""
+      },
+      {
+       "tag": "pulse",
+       "patterns": ["what is a low pulse rate"],
+       "responses": ["If resting blood pressure is ( systolic/diastolic ) 120/80 millimeters of mercury ( mmHg ) , pulse pressure is 40 .","the pressure difference between the systolic and diastolic pressures is the pressure change to create the pulse , which is the pulse pressure.","Pulse pressure is the pressure that is felt when feeling the pulse ."],
+       "context_set": ""
+      },
+      {
+       "tag": "hills",
+       "patterns": ["what will happen to the hills cast members now","what will happen to the hills cast members"],
+       "responses": ["The Hills is a reality television series which originally aired on MTV from May 31 , 2006 until July 13 , 2010 .","The show uses a reality television format , following the personal lives of several young adults living in Los Angeles , California , but tends towards a narrative format more commonly found in scripted genres such as soap operas ."],
+       "context_set": ""
+      },
+      {
+       "tag": "poker",
+       "patterns": ["what is a bad beat in poker"],
+       "responses": ["In poker , bad beat is a subjective term for a hand in which a player with what appear to be strong cards nevertheless loses.","Bad beat  most often occurs where one player bets the clearly stronger hand and their opponent makes a poor call that eventually hits and wins."],
+       "context_set": ""
+      },
+      {
+       "tag": "goldfish",
+       "patterns": ["where do goldfish live","goldfish"],
+       "responses": ["It was first domesticated in China more than a thousand years ago,and several distinct breeds have since been developed.","A relatively small member of the carp family(which also includes the koi carp and the crucian carp),the goldfish is a domesticated version of a less-colorful carp (Carassius auratus) native to east Asia.","The goldfish (Carassius auratus auratus) is a freshwater fish in the family Cyprinidae of order Cypriniformes.","Goldfish breeds vary greatly in size , body shape , fin configuration and coloration ( various combinations of white , yellow , orange , red , brown,and black are known)."],
+       "context_set": ""
+      },
+      {
+       "tag": "rouladen",
+       "patterns": ["part of beef rouladen cut from?","what part of beef are rouladen cut from?","rouladen"],
+       "responses": ["The meat is cut into large,thin slices.","The filling is a mixture of smoked and cooked pork belly,chopped onions and chopped pickles(gurken) which is at times varied by adding minced meat,sausage meat,pine nuts and mustard.","Rouladen are traditionally served for dinner.","Red wine is often served with this dish.","In some countries,the roulade is also known as beef olive.","Rouladen(or Rinderroulade,singular:roulade) is a German meat roulade usually consisting of bacon,onions,mustard and pickles wrapped in thinly sliced beef which is then cooked.","Uncooked Rouladen","The beef rouladen as we know them today have become popular over the last century."],
+       "context_set": ""
+      },
+      {
+       "tag": "cellular",
+       "patterns": ["cellular respiration","where does cellular respiration occur"],
+       "responses": ["Typical eukaryotic cell.","Cellular respiration is the set of the metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate(ATP),and then release waste products.","Respiration is one of the key ways a cell gains useful energy to fuel cellular activity.","Cellular respiration is considered an exothermic redox reaction."],
+       "context_set": ""
+      },
+      {
+       "tag": "countries",
+       "patterns": ["what are some countries","countries"],
+       "responses": ["USA,Netherlands,Australia,Madagascar and many more.","A country is a region that is identified as a distinct entity in political geography.","There are 195 countries in the world today."],
+       "context_set": ""
+      },
+         {
+       "tag": "lapping",
+       "patterns": ["what is a lapping machine","lapping machine","lapping"],
+       "responses": ["Lapping is a loose abrasive machining process that differs from honing or grinding because the abrasive action comes not from a solid abrasive(like a grinding wheel) but from a slurry--abrasive particles mixed with oil or water.","Lapping machines are a type of precision finishing machine.","The first type of lapping(traditionally called grinding),typically involves rubbing a brittle material such as glass against a surface such as iron or glass itself(also known as the lap or grinding tool) with an abrasive such as aluminum oxide,jeweller's rouge,optician's rouge,emery,silicon carbide,diamond,etc. ,in between them.","Lapping is a machining process,in which two surfaces are rubbed together with an abrasive between them,by hand movement or by way of a machine."],
+       "context_set": ""
+      },
+      {
+       "tag": "dallascowboys",
+       "patterns": ["america's team","who said dallas cowboys were america's team","dallas cowboys"],
+       "responses": ["The term America's Team is a popular nickname in the United States that refers to the Dallas Cowboys in the National Football League.","The nickname originated with the team's 1978 highlight film,where the narrator opens with the following introduction:The term is recognized and often used by media outlets,including ESPN,Yahoo!,HBO Sports,and Sports Illustrated."],
+       "context_set": ""
+      },
+      {
+       "tag": "ethan",
+       "patterns": ["ethan","ethan in my babaysister's a vampire","my babysister's a vampire","who plays ethan in my babysitter's a vampire"],
+       "responses": ["The series follows the three as they take on supernatural forces and have adventures,with occasional help from fellow vampires Rory(Cameron Kennedy) and Erica(Kate Todd),while dealing with the troubles of regular high school life.","Ethan Morgan is Matthew Knight","The show follows Ethan Morgan(Matthew Knight),who,in the television film,learns that his babysitter Sarah(Vanessa Morgan) is a vampire.","In the film,he learns he is able to have visions and his best friend Benny Weir(Atticus Mitchell) is a spellmaster."],
+       "context_set": ""
+      },
+         {
+       "tag": "resign",
+       "patterns": ["first president to Resign from office","two initials of the first US president to resign from office","What are the two initials of the first US president to resign from office"],
+       "responses": ["Richard Nixon","Richard Milhous Nixon (January 9, 1913 – April 22, 1994) was an American politician who served as the 37th president of the United States from 1969 until 1974.","RN"],
+       "context_set": ""
+      },
+      {
+       "tag": "bottledwater",
+       "patterns": ["bottled water","health effects of bottled water","health effects of drinking bottled water","what are the health effects of drinking bottled water"],
+       "responses": ["It has minerals required for the human body.","Bottled water may be carbonated or not.","Bottled water is drinking water packaged in plastic or glass water bottles."],
+       "context_set": ""
+      },
+      {
+       "tag": "riversinindia",
+       "patterns": ["rivers","rivers in india","what are the rivers in india"],
+       "responses": ["Most of the rivers pour their waters into the Bay of Bengal;however,some of the rivers whose courses take them through the western part of the country and empty into the Arabian Sea.","Seven major rivers along with their numerous tributaries make up the river system of India.","All major rivers of India originate from one of the three main watersheds.","The shifting of the river courses and bed over the centuries is very remarkable."],
+       "context_set": ""
+      },
+         {
+       "tag": "brettonwoods",
+       "patterns": ["bretton woods system for fixed exchange rates","fixed exhange rates","bretton woods system","the fundamentals of Bretton Woods system for fixed exchange rates"],
+       "responses": ["The Bretton Woods exchange rate system had a system of pegged exchange rates with currencies pegged to the dollar.","Bretton woods was a semi fixed exchange rates set up in the post war period.","The Bretton Woods system was the first example of a fully negotiated monetary order intended to govern monetary relations among independent nation-states.","The Bretton Woods system of monetary management established the rules for commercial and financial relations among the world's major industrial states in the mid-20th century."],
+       "context_set": ""
+      },
+      {
+       "tag": "creditscore",
+       "patterns": ["credit score","what is a good credit score","good credit score"],
+       "responses": ["Lenders also use credit scores to determine which customers are likely to bring in the most revenue.","Credit scoring also has a lot of overlap with data mining,which uses many similar techniques.","Lenders use credit scores to determine who qualifies for a loan,at what interest rate,and what credit limits.","The use of credit or identity scoring prior to authorizing access or granting credit is an implementation of a trusted system.","A credit score is primarily based on credit report information typically sourced from credit bureaus."],
+       "context_set": ""
+      },
+      {
+       "tag": "ducatimotors",
+       "patterns": ["what motors do ducatis have","ducati motors","ducatis motors","motors of ducati","motors of ducatis"],
+       "responses": ["Headquartered in Bologna,Italy,Ducati is owned by Audi through its Italian subsidiary Lamborghini.","Ducati Motor Holding S.p.A. is an Italian company that designs and manufactures motorcycles."],
+       "context_set": ""
+      },
+      {
+       "tag": "siunit",
+       "patterns": ["base SI unit","SI unit","what is a base SI unit"],
+       "responses": ["There are seven SI base units","metre for length","kilogram for mass","second for time","ampere for electric current","kelvin for temperature","candela for luminous intensity","mole for the amount of substance","The International System of Units(SI) defines seven units of measure as a basic set from which all other SI units are derived."],
+       "context_set": ""
+      },
+      {
+       "tag": "colnatmon",
+       "patterns": ["river through colorado national monument","river flowing through colorado national monument","what river goes through colorado national monument"],
+       "responses": ["Most of Colorado National Monument rises more than 2,000 feet above the Grand Valley of the Colorado River.","Colorado National Monument(locally referred to as The Monument) is a part of the National Park Service near the city of Grand Junction,Colorado."],
+       "context_set": ""
+      },
+      {
+       "tag": "",
+       "patterns": ["stripes on the service charlies","stripes go on the service charlies","the stripes go on the service charlies","where do the stripes go on the service charlies"],
+       "responses": ["Service stripes will be worn on the outer half of each sleeve of dress/service coats; gold on scarlet on the blue dress coat and green on scarlet on the green coat.","The Uniforms of the United States Marine Corps serve to distinguish Marines from members of other services.","left to right","left to right:Utility Uniform,Blue Dress Uniform,Service Uniform,and Evening Dress uniforms"],
+       "context_set": ""
+      },
+         {
+       "tag": "areacode419",
+       "patterns": ["area code 419","419 area code","what state is area code 419"],
+       "responses": ["Ohio","North American telephone area codes 419 and 567 serve the northwest quadrant of the U.S. state of Ohio.","northwest quadrant of the U.S. state of Ohio.","northwest quadrant of Ohio."],
+       "context_set": ""
+      },
+      {
+       "tag": "",
+       "patterns": ["what is 9/11 bombings","9/11","9/11 bombings"],
+       "responses": ["series of airline hijackings and suicide attacks committed in 2001 by 19 militants","Almost 3,000 people were killed during the 9/11 terrorist attacks, which triggered major U.S. initiatives to combat terrorism","a series of four coordinated terrorist attacks by the Islamic terrorist group al-Qaeda","","terrorist attacks by the Islamic terrorist group al-Qaeda against the United States","The September 11 attacks(also referred to as 9/11) were a series of four coordinated terrorist attacks by the Islamic terrorist group al-Qaeda against the United States on the morning of Tuesday, September 11, 2001."],
+       "context_set": ""
+      },
+      {
+       "tag": "herbfinnemo",
+       "patterns": ["herbivores in the finding nemo movie","herbivores in the finding nemo","herbivores in finding nemo movie","herbivores in finding nemo","what are herbivores in finding nemo"],
+       "responses": ["Bubbles, the turtles and Dory","Bubbles(a yellow tang), the turtles, and Dory(a blue tang).","herbivores are animals that feed on plants, so in Finding Nemo, those would be Bubbles(a yellow tang), the turtles, and Dory(a blue tang).","herbivores are animals that feed on plants, so in Finding Nemo, those would be Bubbles (a yellow tang), the turtles,and Dory (a blue tang)."],
+       "context_set": ""
+      },
+         {
+       "tag": "iconicboyzz",
+       "patterns": ["when to dance with the iconic boyz","dance with iconic boyz"],
+       "responses": ["The sixth season of America 's Best Dance Crew"," America's Best Dance Crew:Season of the Superstars"],
+       "context_set": ""
+      },
+      {
+       "tag": "socialsecuritytax",
+       "patterns": ["what are social security taxes","social security taxes"],
+       "responses": ["Social Security tax is the tax levied on both employers and employees to fund the Social Security program.","Social Security tax is collected in the form of a payroll tax mandated by the Federal Insurance Contributions Act (FICA) or a self-employment tax mandated by the Self-Employed Contributions Act (SECA).","The Social Security tax, also known as Old Age, Survivors, and Disability Insurance (OASDI), applies to all income earned from labor."],
+       "context_set": ""
+      },
+      {
+       "tag": "alccontent",
+       "patterns": ["alcohol content of beer","alcohol content of beer per volume","what is alcohol content of beer per volume"],
+       "responses": ["Alcohol by volume, or ABV, is used to measure the alcohol content of beer, wine, distilled spirits, and other alcoholic beverages.","Beers typically fall in the 3.0 to 13.0 percent ABV range, with the majority being 4.0 to 7.0 percent ABV."],
+       "context_set": ""
+      },
+         {
+       "tag": "laurelhollow",
+       "patterns": ["what town is laurel hollow ny in","laurel hollow ny"],
+       "responses": [" Laurel Hollow is in Nassau County and is one of the best places to live in New York.","Laurel Hollow is a village in the Town of Oyster Bay in Nassau County","Laurel Hollow is a village in the Town of Oyster Bay in Nassau County, New York in the United States.","Laurel Hollow is a village in the Town of Oyster Bay, New York."],
+       "context_set": ""
+      },
+      {
+       "tag": "charless",
+       "patterns": ["charles dickens","charles dickens live","when did charles dickens live"],
+       "responses": ["born February 7, 1812 and died on June 9, 1870","born February 7, 1812, Portsmouth, Hampshire, England—died June 9, 1870, Gad's Hill, near Chatham, Kent","Charles Dickens, in full Charles John Huffam Dickens, (born February 7, 1812, Portsmouth, Hampshire, England—died June 9, 1870, Gad's Hill, near Chatham, Kent), English novelist, generally considered the greatest of the Victorian era."],
+       "context_set": ""
+      },
+      {
+       "tag": "civilrightss",
+       "patterns": ["civil rights movement","civil rights movement begin","when did the civil rights movement begin"],
+       "responses": ["The American civil rights movement started in the mid-1950s.","A major catalyst in the push for civil rights was in December 1955, when NAACP activist Rosa Parks refused to give up her seat on a public bus to a white man.","The Civil Rights Movement that began in the late 1950's won for African-Americans basic rights long denied to them, inspired other discriminated groups to fight"],
+       "context_set": ""
+      },
+      {
+       "tag": "fifa2010",
+       "patterns": ["fifa world cup 2010 winners","fifa world cup 2010","who won fifa world cup 2010"],
+       "responses": ["Spain lifted the FIFA World Cup for the first time after Andres Iniesta's 116th-minute goal secured a 1-0 victory for the European champions over the Netherlands at Soccer City.","Spain national football team","Spain"],
+       "context_set": ""
+      },
+      {
+       "tag": "eggmcmuffin",
+       "patterns": ["egg mcmuffin","mcmuffin","when did egg mcmuffin get invented"],
+       "responses": ["McMuffin is a family of breakfast sandwiches sold by the international fast food restaurant chain McDonald's.","The Egg McMuffin is the signature sandwich, which was invented in 1972 by Herb Peterson to resemble eggs Benedict, a traditional American breakfast dish with English muffins, ham, eggs and hollandaise sauce."],
+       "context_set": ""
+      },
+      {
+       "tag": "johnlennon",
+       "patterns": ["who shot john lennon?","john lennon","john lennon was shot by"],
+       "responses": ["Mark David Chapman pleaded guilty to murdering Lennon.","Chapman pleaded guilty in 1981 to murdering Lennon.","Chapman killed Lennon","Under the terms of Chapmans' guilty plea, he was sentenced to 20-years-to-life and later automatically became eligible for parole in 2000."],
+       "context_set": ""
+      },
+      {
+       "tag": "neworleans",
+       "patterns": ["what state is new orleans in","new orleans","new orleans in USA","new orleans in united states"],
+       "responses": ["New Orleans is a consolidated city-parish located along the Mississippi River in the southeastern region of the U.S. state of Louisiana.","New Orleans is a Louisiana city on the Mississippi River, near the Gulf of Mexico.","New Orleans is in the state of Louisiana"],
+       "context_set": ""
+      },
+      {
+       "tag": "fragrockgorg",
+       "patterns": ["what is a fraggle rock gorg?","fraggle rock gorg"],
+       "responses": ["Henson described the Fraggle Rock series as a high-energy, raucous musical romp.It's a lot of silliness.It's wonderful.","Jim Henson's Fraggle Rock or Fraggle Rock with Jim Henson's Muppets","Fraggle Rock is a Canadian-British-American children's puppet television series about interconnected societies of Muppet creatures, created by Jim Henson."],
+       "context_set": ""
+      },
+      {
+       "tag": "millwr",
+       "patterns": ["millwrights","what is a millwright worker","millwright worker"],
+       "responses": ["A millwright is someone who installs, dismantles, repairs, reassembles, and moves machinery in factories, power plants, and construction sites.","Millwright workers are incredibly skilled at their job, understanding how a number of different machines work after reading complicated technical plans.","Millwrights work in factories, power plants and other industrial settings to move, assemble, install or dismantle machinery."],
+       "context_set": ""
+      },
+      {
+       "tag": "sodazide",
+       "patterns": ["where is sodium azide found","what product 's main ingredient is sodium Azide ?","Sodium Azide is found in what product","Sodium Azide"],
+       "responses": ["Automobile airbags and airplane escape chutes","airplane escape chutes","Automobile airbags"],
+       "context_set": ""
+      },
+      {
+       "tag": "rainbow",
+       "patterns": ["what are the colors of a rainbow"],
+       "responses": ["The seven colors of the rainbow are red, orange, yellow, green, blue, indigo, and violet.","There are seven colors in the rainbow"],
+       "context_set": ""
+      },
+      {
+       "tag": "cdc",
+       "patterns": ["who founded the cdc","cdc"],
+       "responses": ["Joseph Mountin","As the organization took root deep in the South, once known as the heart of the malaria zone, CDC Founder Dr. Joseph Mountin continued to advocate for public health issues and to push for CDC to extend its responsibilities to other communicable diseases.","Joseph Mountin founded CDC"],
+       "context_set": ""
+      },
+      {
+       "tag": "earthquake",
+       "patterns": ["what major agencies are studying earthquakes"],
+       "responses": ["Federal Emergency Management Agency (FEMA)","The four NEHRP agencies work in close coordination to improve the Nation's understanding of earthquake hazards and to mitigate their effects.","National Institute of Standards and Technology (NIST)","National Science Foundation (NSF)","United States Geological Survey (USGS)"],
+       "context_set": ""
+      },
+      {
+       "tag": "tourbillon",
+       "patterns": ["who created the tourbillon movement ?","who invented the tourbillon movement ?","tourbillon movement was invented by","tourbillon movement was created by"],
+       "responses": ["Abraham-Louis Breguet","In a tourbillon the escapement and balance wheel are mounted in a rotating cage, in order to negate the effects of gravity when the timepiece (thus the escapement) is stuck in a certain position.","It was developed around 1795 and patented by the French-Swiss watchmaker Abraham-Louis Breguet on June 26, 1801."],
+       "context_set": ""
+      },
+      {
+       "tag": "msi",
+       "patterns": ["what is an .msi file",".msi files",".msi file",".msi"],
+       "responses": ["MSI is an installer package file format used by Windows.","Its name comes from the program's original title, Microsoft Installer, which has since changed to Windows Installer.","MSI files are used for installation, storage, and removal of programs."],
+       "context_set": ""
+      },
+      {
+       "tag": "fourlokos",
+       "patterns": ["what is a Four Lokos","Four Lokos"],
+       "responses": ["Four Loko is a line of alcoholic beverages sold by Phusion Projects  of Chicago, Illinois, United States"],
+       "context_set": ""
+      },
+      
+
+
+
+
+      {
+        "tag":"africanamericans",
+        "patterns":["HOW AFRICAN AMERICANS WERE IMMIGRATED TO THE US","african americans"],
+        "responses":["African immigration to the United States refers to immigrants to the United States who are or were nationals of Africa","African immigrants in the United States come from almost all regions in Africa and do not constitute a homogeneous group","They include people from different national, linguistic, ethnic, racial, cultural and social backgrounds","As such, African immigrants are to be distinguished from African American people, the latter of whom are descendants of mostly West and Central Africans who were involuntarily brought to the United States by means of the historic Atlantic slave trade"],
+        "context_set":""
+      },
+      {
+        "tag":"glaciers",
+        "patterns":["how are glacier caves formed?","glacier cave formation","glacier cave"],
+        "responses":["A glacier cave is a cave formed within the ice of a glacier","Glacier caves are often called ice caves , but this term is properly used to describe bedrock caves that contain year-round ice","The ice facade is approximately 60 m high"],
+        "context_set":""
+      },
+      {
+        "tag":"circularmotion",
+        "patterns":["How are the directions of the velocity and force vectors related in a circular motion","directions of velocity","circular motion"],
+        "responses":["In physics , circular motion is a movement of an object along the circumference of a circle or rotation along a circular path","It can be uniform, with constant angular rate of rotation (and constant speed), or non-uniform with a changing rate of rotation","The rotation around a fixed axis of a three-dimensional body involves circular motion of its parts","The equations of motion describe the movement of the center of mass of a body"],
+        "context_set":""
+      },
+      {
+        "tag":"jail",
+        "patterns":["how large were early jails","how big was the early jail","early jail","jail"],
+        "responses":["A prison (from Old French prisoun), also known as gaol or jail, is a place in which large people were imprisoned","The early jail was so big","It was so big"],
+        "context_set":""
+      },
+      {
+        "tag":"waterpumps",
+        "patterns":["how a water pump works","Mechanism of water pumps","water pumps"],
+        "responses":["Pumps operate by some mechanism (typically reciprocating or rotary ), and consume energy to perform mechanical work by moving the fluid"],
+        "context_set":""
+      },
+      {
+        "tag":"apollocreed",
+        "patterns":["how did apollo creed die","apollo creed","apollo creed died"],
+        "responses":["Apollo died in the boxing ring, and while Creed makes sure to mention this, the movie never gets into the specifics of how that happened"],
+        "context_set":""
+      },
+      {
+        "tag":"federaljudges",
+        "patterns":["how long is the term for federal judges","federal judges","judges"],
+        "responses":["a federal judge, once approved by the Senate, can stay on the bench until he or she dies or decides to retire. ","In the United States, the term of office for federal judges is life during good behavior."],
+        "context_set":""
+      },
+      {
+        "tag":"berettamodel",
+        "patterns":["how a beretta model 21 pistols magazines works","beretta model 21","beretta model"],
+        "responses":["The Beretta 21A Bobcat is a small pocket-sized semi-automatic pistol designed by Beretta in Italy"],
+        "context_set":""
+      },
+      {
+        "tag":"epithelial",
+        "patterns":["How are epithelial tissues joined together?","epithelial tissues"],
+        "responses":[" In epithelial tissue, by contrast, cells are tightly bound together into sheets called epithelia"],
+        "context_set":""
+      },
+      {
+        "tag":"vul",
+        "patterns":["how a vul works D9","vul works","vul"],
+        "responses":["In a VUL, the cash value can be invested in a wide variety of separate accounts, similar to mutual funds, and the choice of which of the available separate accounts to use is entirely up to the contract owner."],
+        "context_set":""
+      },
+      {
+        "tag":"bmcsoftware",
+        "patterns":["how big is bmc software in houston, tx","bmc software"],
+        "responses":["Employing over 6,000, BMC is often credited with pioneering the BSM concept as a way to help better align IT operations with business needs","For 2011, the company recorded an annual revenue of $2.1 billion, making it the #20 largest software company in terms of revenue for that year"],
+        "context_set":""
+      },
+      {
+        "tag":"scoutcookie",
+        "patterns":["how big did girl scout cookie boxes used to be","girl scout cookie boxes"],
+        "responses":["A box of cookies measures 7 inches x 2.3 inches x 4.6 inches."],
+        "context_set":""
+      },
+      {
+        "tag":"purdue",
+        "patterns":["how big is the purdue greek system","purdue greek system","greek system"],
+        "responses":["About 20 percent of the students are affiliated with greek life"],
+        "context_set":""
+      },
+      {
+        "tag":"sebaceouscyst",
+        "patterns":["how big do sebaceous cysts get","sebaceous cysts","how big will sebaceous cysts be"],
+        "responses":["Sebaceous cysts, or skin cysts, are slightly hardened, fluid-filled bumps within the skin."," They range from pea-sized, at about 1 centimeter across to around 5 centimeters across."],
+        "context_set":""
+      },
+      {
+        "tag":"pointeshoes",
+        "patterns":["how are pointe shoes made","pointe shoe making","pointe shoes"],
+        "responses":["In most pointe shoes, the sole is constructed from a single piece of leather that is attached to the shoe with adhesive and reinforced by stitching along its edges."],
+        "context_set":""
+      },
+      {
+        "tag":"tablespoon",
+        "patterns":["how much is 1 tablespoon of water","one tablespoon of water equals"],
+        "responses":["This tablespoon has a capacity of about 15 mL","about 15 mL","In the USA one tablespoon (measurement unit) is approximately 15 mL; the capacity of an actual tablespoon (dining utensil) ranges from 7 mL to 14 mL"],
+        "context_set":""
+      },
+      {
+        "tag":"harrypotter",
+        "patterns":["how much are the harry potter movies worth","harry potter", "worth of harry potter "],
+        "responses":["The series also originated much tie-in merchandise, making the Harry Potter brand worth in excess of $15 billion"],
+        "contex_set":""
+      },
+      {
+        "tag":"rocketengine",
+        "patterns":["how a rocket engine works","working of rocket engine","rocket engine","rocket"],
+        "responses":["A rocket engine, or simply rocket, is a jet engine that uses only stored propellant mass for forming its high speed propulsive jet"],
+        "context_set":""
+      },
+      {
+        "tag":"britney spears",
+        "patterns":["how old was britney spears when she recorded hit me baby one more time","how old was britney spears",""],
+        "responses":["she was only sixteen years old.","britney spears was 16 yrs old."],
+        "context_set":""
+      },
+      {
+        "tag":"lyon",
+        "patterns":["how old was sue lyon when she made lolita","how old was sue lyon"],
+        "responses":["The actress who played Lolita, Sue Lyon , was fourteen at the time of filming","Lyon was 14 yrs old"],
+        "context_set":""
+      },
+      {
+        "tag":"cholera typhus",
+        "patterns":["how are cholera and typhus transmitted and prevented","How should we prevent cholera and typhus","how to prevent cholera","how to prevent typhus"],
+        "responses":["Transmission occurs primarily by drinking water or eating food that has been contaminated by the feces (waste product) of an infected person, including one with no apparent symptoms"],
+        "context_set":""
+      },
+      {
+        "tag":"sibyl vane",
+        "patterns":["how old is sibyl vane in the picture of dorian gray","How old is sibyl vane","sibyl vane"],
+        "responses":["Sybil is a seventeen-year-old girl who was the only one calling Dorian Prince Charming.","She is 17 yrs old"],
+        "contex_set":""
+      },
+      {
+        "tag":"zsa",
+        "patterns":["how old is zsa zsa gabor's daughter", "What is the age of zsa zsa gabor's daughter","zsa zsa gabor's daughter"],
+        "responses":["67 years","zsa zsa gabor's daughter is 67 yrs old"," she is 67 yrs old"],
+        "contex_set":""
+      },
+      {
+        "tag":"brucelee",
+        "patterns":["how bruce lee died","How did bruce lee die"," bruce lee death","bruce lee"],
+        "responses":["bruce lee died because of Cerebral edema", " cause of death of bruce lee is Cerebral edema","Because of Cerebral edema"],
+        "contex_set":""
+      },
+      {
+        "tag":"copd",
+        "patterns":["how active can one be with copd","chronic obstructive pulmonary disease","what to do if we have copd"],
+        "responses":["Pulmonary Rehabilitation can be a great way to stay active and learn how to exercise with COPD"," Consult the doctor for exercises to be active"],
+        "contex_set":""
+      },
+      {
+        "tag":"anne frank",
+        "patterns":["how did anne frank die","anne frank","anne frank death"],
+        "responses":["Anne Frank and her sister, Margot , were eventually transferred to the Bergen-Belsen concentration camp , where they died of typhus in March 1945"],
+        "contex_set":""
+      },
+      {
+        "tag":"kurt cobain",
+        "patterns":["how old is kurt cobain's daughter", "kurt cobain's daughter's age","age of Frances Bean Cobain"],
+        "responses":["27 years"," she is 27 years","Frances Bean Cobain is 27 yrs old"],
+        "contex_set":""
+      },
+      {
+        "tag":"aircraft",
+        "patterns":["how are aircraft radial engines built","aircraft radial engine"],
+        "responses":["The radial engine is a reciprocating type internal combustion engine configuration in which the cylinders point outward from a central crankshaft like the spokes of a wheel"],
+        "contex_set":""
+      },
+      {
+        "tag":"drill",
+        "patterns":["how deep can be drill for deep underwater","depth of drill for deep underwater","drill for underwater"],
+        "responses":["Deepwater drilling is the process of oil and gas exploration and production in depths of more than 500 feet"],
+        "contex_set":""
+      },
+      {
+        "tag":"monica lewinsky",
+        "patterns":["how old was monica lewinsky during the affair","age of monica lewinsky during affair","monica lewinsky"],
+        "responses":["Monica Samille Lewinsky (born July 23, 1973) is an American woman with whom United States President Bill Clinton admitted to having had an improper relationship while she worked at the White House in 1995 and 1996"],
+        "contex_set":""
+      },
+      {
+        "tag":"sinatra",
+        "patterns":["how long was frank sinatra famous","frank sinatra famous duration","frank sinatra"],
+        "responses":["Beginning his musical career in the swing era with Harry James and Tommy Dorsey , Sinatra found unprecedented success as a solo artist from the early to mid-1940s after being signed to Columbia Records in 1943"],
+        "contex_set":""
+      },
+      {
+        "tag":"antibodies",
+        "patterns":["how are antibodies used in","antibodies"],
+        "responses":["An antibody (Ab), also known as an immunoglobulin (Ig), is a large Y-shaped protein produced by B-cells that is used by the immune system to identify and neutralize foreign objects such as bacteria and viruses","The antibody recognizes a unique part of the foreign target, called an antigen","Each tip of the Y of an antibody contains a paratope (a structure analogous to a lock) that is specific for one particular epitope (similarly analogous to a key) on an antigen, allowing these two structures to bind together with precision","Using this binding mechanism, an antibody can tag a microbe or an infected cell for attack by other parts of the immune system, or can neutralize its target directly (for example, by blocking a part of a microbe that is essential for its invasion and survival)"],
+        "contex_set":""
+      },
+      {
+        "tag":"cornhole",
+        "patterns":["how big is cornhole hole","hole in cornhole","cornhole"],
+        "responses":["The hole in the board shall be 6 inches in diameter. Its center shall be 9 inches from the top and 12 inches from each side of the board edges"],
+        "contex_set":""
+      },
+      {
+        "tag":"american eagle",
+        "patterns":["how much is a gold 1986 American Eagle worth?","american eagle","worth of american eagle"],
+        "responses":["One Ounce American Gold Eagle is Worth $1,634","One ounce is $1634 worth"],
+        "contex_set":""
+      },
+      {
+        "tag":"massey brothers",
+        "patterns":["how old are the massey brothers","what is the age of massey brother"," age of massey brothers","massey brothers"],
+        "responses":["28 years","they are 28 yrs old","Massey brothers are 28 yrs old"],
+        "contex_set":""
+      },
+      {
+        "tag":"Richard Nixon",
+        "patterns":["how long was richard nixon a president","From which year to which year Nixon was a President"],
+        "responses":["Richard Milhous Nixon (January 9, 1913 – April 22, 1994) was the 37th President of the United States , serving from 1969 to 1974, when he became the only president to resign the office.","serving from 1969 to 1974","5 yrs", "Five Years"],
+        "contex_set":""
+      },
+
+
+     {
+        "tag":"Business ethics",
+        "patterns":["how are business ethics different in Africa and United States"],
+        "responses":["Still in grwoing level in Africa when compare with US"],
+        "contex_set":""
+      },
+
+
+     {
+        "tag":"Burn",
+        "patterns":["how bad burns go to burn center"],
+        "responses":["Burn injuries are unique and require specialized treatment"],
+        "contex_set":""
+      },
+
+
+     {
+        "tag":"Juliet",
+        "patterns":["how old was shakespeare's juliet", "How old Juliet"],
+        "responses":["Juliet is a young girl of 16 years", "Juliet age is sixteen years", "Juliet age 16 years"],
+        "contex_set":""
+      },
+
+
+     {
+        "tag":"Atlantic Ocean",
+        "patterns":["how deep is the atlantic ocean"],
+        "responses":["The average depth is 3,646 m (11,962 ft)"],
+        "contex_set":""
+      },
+
+     {
+        "tag":"Lists of tropical cyclone names",
+        "patterns":["how are storm names determined?"],
+        "responses":["Storms are given names when they are deemed to have the potential to cause 'medium' or 'high' wind impacts"],
+        "contex_set":""
+      },
+
+  {
+        "tag":"Fire brick",
+        "patterns":["how are fire bricks made"],
+        "responses":["using fire clay and has a good resistance against high temperatures which are used in kilns, lining furnaces"],
+        "contex_set":""
+      },
+
+
+  {
+        "tag":"Visible spectrum",
+        "patterns":["how big or small a visible light can get"],
+        "responses":["Visible light is usually defined as having wavelengths in the range of 400–700 nanometers (nm)"],
+        "contex_set":""
+      },
+
+
+  {
+        "tag":"Mexican peso",
+        "patterns":["HOW MUCH IS CENTAVOS IN MEXICO"],
+        "responses":["The peso is subdivided into 100 centavos"],
+        "contex_set":""
+      },
+
+
+
+  {
+        "tag":"Zebra",
+        "patterns":["how big are baby zebras when born"],
+        "responses":["The young zebra, called a foal, usually weighs around 70 pounds at birth"],
+        "contex_set":""
+      },
+
+  {
+        "tag":"Barry White",
+        "patterns":["How did Barry White die?"],
+        "responses":["High blood pressure (hypertension)"],
+        "contex_set":""
+      },
+
+
+
+  {
+        "tag":"Angelina Jolie",
+        "patterns":["how did angelina jolie get her name?"],
+        "responses":["Was born Angelina Jolie Voight, however she dropped her surname Voight and began using her middle name Jolie as her stage name (2002)"],
+        "contex_set":""
+      },
+
+
+  {
+        "tag":"erosion",
+        "patterns":["how can plant gases slow erosion"],
+        "responses":["Soil erosion is partially caused by rain runoff washing away the soil"],
+        "contex_set":""
+      },
+
+  {
+        "tag":"Mickie James",
+        "patterns":["How long was Mickie James with WWE?"],
+        "responses":["come to an end on the June 26 episode of Raw, when Mickie defeated Stratus in a Women's Championship match"],
+        "contex_set":""
+      },
+
+  {
+        "tag":"Jersey Shore (TV series)",
+        "patterns":["how long was angelina on the jersey shore?"],
+        "responses":[""],
+        "contex_set":""
+      },
+
+  {
+        "tag":"Pitbull (entertainer)",
+        "patterns":["how did armando christian perez become famous"],
+        "responses":["Armando Pérez (born January 15, 1981), better known by his stage name Pitbull, is an American rapper, songwriter, and record producer."],
+        "contex_set":""
+      },
+{
+        "tag":"United States territory",
+        "patterns":["how can a territory become a state"],
+        "responses":["Congress can make a territory into a State"],
+        "contex_set":""
+      },
+{
+        "tag":"Taste",
+        "patterns":["how can something taste good to one person"],
+        "responses":["the suite of chemicals that can trigger those signals varies from one person to the next"],
+        "contex_set":""
+      },
+{
+        "tag":"Bob marley",
+        "patterns":["How did Bob Marley die?"],
+        "responses":["Skin cancer (melanoma)"],
+        "contex_set":""
+      },
+{
+        "tag":"Terminator 3: Rise of the Machines",
+        "patterns":["how old was arnold in terminator 3"],
+        "responses":["54-year-old Arnold Schwarzenegger "],
+        "contex_set":""
+      },
+{
+        "tag":"List of youngest birth mothers",
+        "patterns":["how old is youngest mother in the world"],
+        "responses":["five years"],
+        "contex_set":""
+      },
+{
+        "tag":"Willy Wonka & the Chocolate Factory",
+        "patterns":["how much was the production of willy wonka and the chocolate factory"],
+        "responses":["$3 million "],
+        "contex_set":""
+      },
+{
+        "tag":"Cord (unit)",
+        "patterns":["how much is a cord of wood"],
+        "responses":["128 cubic feet. In other words, a stack 4' high X 8' long X 4' deep"],
+        "contex_set":""
+      },
+{
+        "tag":"Game Boy",
+        "patterns":["how much was game boy color when it came out"],
+        "responses":["The original Game Boy, launched in 1989 for a mere $89.99"],
+        "contex_set":""
+      },
+{
+        "tag":"World Trade Center",
+        "patterns":["how old were the twin towers when destroyed"],
+        "responses":["The original World Trade Center featured landmark twin towers, which opened on April 4, 1973 and were destroyed in the September 11 attacks of 2001, along with 7 World Trade Center."],
+        "contex_set":""
+      },
+{
+        "tag":"Transverse Ranges",
+        "patterns":["how are transverse ranges formed"],
+        "responses":[" formed by a series of complex of tectonic forces because of the interaction of the Pacific Plate and the North American Plate along the San Andreas Fault system"],
+        "contex_set":""
+      },
+{
+        "tag":"Electron shell",
+        "patterns":["how are the # of electrons in each shell determined"],
+        "responses":[" Each shell can contain only a fixed number of electrons: The 1st shell can hold up to two electrons, the 2nd shell can hold up to eight electrons, the 3rd shell can hold up to 18, and 4th shell can hold up to 32 and so on."],
+        "contex_set":""
+      },
+{
+        "tag":"Anna Nicole Smith",
+        "patterns":["how old was anna nicole smith when she meet her old husband"],
+        "responses":["she was 17 years old"],
+        "contex_set":""
+      },
+{
+        "tag":"Units of paper quantity",
+        "patterns":["how much is a ream of paper"],
+        "responses":["the ream as 500 identical sheets"],
+        "contex_set":""
+      },
+{
+        "tag":"5 yen coin",
+        "patterns":["how much is a yen coin"],
+        "responses":["1 Japanese Yen equals 0.0091 United States Dollar"],
+        "contex_set":""
+      },
+{
+        "tag":"Slaughterhouse",
+        "patterns":["how can i open a usda slaughterhouse"],
+        "responses":["it demands different food processing license, Registrations & Licenses required"],
+        "contex_set":""
+      },
+{
+        "tag":"TLC (group)",
+        "patterns":["how tall are the members of tlc"],
+        "responses":["5 feet 1 inch"],
+        "contex_set":""
+      },
+
+{
+        "tag":"Tarzan (1999 film)",
+        "patterns":["how long is the tarzan movie"],
+        "responses":["1h 50m"],
+        "contex_set":""
+      },
+
+{
+        "tag":"Oil platform",
+        "patterns":["how an oil rig works"],
+        "responses":["Rigs are raised and slid into place by a cantilever"],
+        "contex_set":""
+      },
+
+{
+        "tag":"Pornographic film actor",
+        "patterns":["how much is an adult film actor paid"],
+        "responses":["Adult Film Actor or Actress An entry-level Adult Film Actor or Actress with less than 1 year experience can expect to earn an average total compensation (includes tips, bonus, and overtime pay) of $39,999 based on 11 salaries"],
+        "contex_set":""
+      },
+{
+        "tag":"Standard deviation",
+        "patterns":["how close or far do you want to be to the standard deviation"],
+        "responses":["standard deviation of a sample is approximately equal to one-fourth of the range of the data"],
+        "contex_set":""
+      },
+{
+        "tag":"Animal slaughter",
+        "patterns":["how are sheep slaughtered"],
+        "responses":["Cows are forced through a chute and shot in the head with a captive-bolt gun meant to stun them"],
+        "contex_set":""
+      },
+{
+        "tag":"Brain tumor",
+        "patterns":["how deadly are brain tumors"],
+        "responses":["Glioblastoma multiforme (also known as GBM) is the deadliest of all (primary) brain cancers and is widely regarded as incurable and universally fatal, killing 95% of patients within five years of diagnosis"],
+        "contex_set":""
+      },
+
+{
+        "tag":"List of Presidents of the United States",
+        "patterns":["how many presidents of the us"],
+        "responses":["There have been 43 people sworn into office, and 44 presidencies, as Grover Cleveland served two non-consecutive terms and is counted chronologically as both the 22nd and 24th president."],
+        "contex_set":""
+      },
+
+{
+        "tag":"Suppressor",
+        "patterns":["how a silencer works"],
+        "responses":["Inside the device are baffles and expansion chambers to efficiently funnel, cool, and spread out the gasses to reduce their noise ."],
+        "contex_set":""
+      },
+{
+        "tag":"Suppressor",
+        "patterns":["how tall is an indoor girls volleyball net"],
+        "responses":["7 feet."],
+        "contex_set":""
+      },
+
+{
+        "tag":"National debt of the United States",
+        "patterns":["How much is US National Debt limit?"],
+        "responses":["total national debt of $23.08 trillion"],
+        "contex_set":""
+      },
+{
+        "tag":"Athenian democracy",
+        "patterns":["how did athenians make money"],
+        "responses":["the large trade network that they developed"],
+        "contex_set":""
+      },
+
+{
+        "tag":"Bea Arthur",
+        "patterns":["how old is beatrice author"],
+        "responses":["Beatrice Bea Arthur (May 13, 1922 – April 25, 2009) was an American actress, comedienne, and singer whose career spanned seven decades."],
+        "contex_set":""
+      },
+
+{
+        "tag":"Tekken: Blood Vengeance",
+        "patterns":["how long is tekken blood vengeance movie"],
+        "responses":["1h 40m"],
+        "contex_set":""
+      },
+
+
+{
+        "tag":"Homeowner association",
+        "patterns":["how can hoa collect unpaid fees on property"],
+        "responses":["the homeowners association might place a lien on your home, sue you and garnish your wages, take away your privileges, or foreclose, among other things"],
+        "contex_set":""
+      },
+
+{
+        "tag":"List of guinea pig breeds",
+        "patterns":["how big can texel guinea pigs become"],
+        "responses":["8-10 inches long (20-25cm)"],
+        "contex_set":""
+      },
+
+
+{
+        "tag":"state school",
+        "patterns":["how are public schools funded"],
+        "responses":["State schools (also known as public schools or government schools) generally refer to primary or secondary schools mandated for or offered to all children without charge paid for, in whole or in part, by taxation","The term may also refer to institutions of post-secondary education funded, in whole or in part, and overseen by government. "],
+        "contex_set":""
+      },
+
+
+{
+        "tag":"Ribosome",
+        "patterns":["how are ribosomes made"],
+        "responses":["ribosomes are produced and assembled in the nucleolus"],
+        "contex_set":""
+      },
+
+
+{
+        "tag":"Light-independent reactions",
+        "patterns":["what happens  to the light independent reactions of photosynthesis?"],
+        "responses":["The light-independent reactions of photosynthesis are chemical reactions that convert carbon dioxide and other compounds into glucose", "These reactions take the light-dependent reactions and perform further chemical processes on them."],
+        "contex_set":""
+      }
+]
+}
